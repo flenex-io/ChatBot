@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ChatBot from "react-simple-chatbot";
 import { Segment } from "semantic-ui-react";
+import LeftNav from './components/LeftNav'
 
 const App = () => {
   const steps = [
@@ -64,12 +65,18 @@ const App = () => {
       id: "9",
       message: "Alright! We'll be reaching you out soon through your email",
       end: true,
-    }
+    },
   ];
 
   return (
     <Segment>
-      <ChatBot steps={steps} />
+      <div className="center">
+        <h1>Contact Us</h1>
+        <LeftNav/>
+        <ChatBot
+          steps={steps}
+          floating={true}/>
+      </div>
     </Segment>
   );
 };
