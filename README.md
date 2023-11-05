@@ -3,7 +3,7 @@
 ![Chatbot Preview](./src/images/chatbot.png)
 ![Chatbot Preview](./src/images/screen.png)
 
-This project features a chatbot implemented in an ElevenLabs website. The front-end code for the ElevenLabs website has been created using website cloning techniques. However, the chatbot component, a core feature of this project, has been fully developed by me(Flenex.io) using a React library called react-simple-chatbot. This is just a initial state of the project and many more features will be adding soon.
+This project features a chatbot implemented in an ElevenLabs website(cloned). The front-end code for the ElevenLabs website has been created using website cloning techniques. However, the chatbot component, a core feature of this project, has been fully developed by me(Flenex.io) using a React library called react-simple-chatbot. This is just an initial state of the project and many more features will be added soon.
 
 ## Project Overview
 
@@ -15,7 +15,7 @@ To experience this chatbot in action, follow these steps:
 
 1. Visit the live project where the chatbot is implemented.
 
-2. The chatbot should be prominently displayed on bottom right side of the website, ready to assist you with any questions or information you need.
+2. The chatbot should be prominently displayed on the bottom right side of the website, ready to assist you with any questions or information you need.
 
 3. Engage with the chatbot by typing your queries or responding to its prompts.
 
