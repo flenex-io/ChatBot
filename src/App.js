@@ -1,6 +1,8 @@
 import React from "react";
 import ChatBot from "react-simple-chatbot";
+import { ThemeProvider } from "styled-components";
 import { Segment } from "semantic-ui-react";
+import LeftNav from "./components/Main";
 
 const App = () => {
   const steps = [
@@ -67,11 +69,23 @@ const App = () => {
     },
   ];
 
+  const theme = {
+    background: "#f5f8fb",
+    headerBgColor: "#4770F4",
+    headerFontColor: "#fff",
+    headerFontSize: "15px",
+    botBubbleColor: "#4770F4",
+    botFontColor: "#fff",
+    userBubbleColor: "#fff",
+    userFontColor: "#4a4a4a",
+  };
+
   return (
     <Segment>
-        <ChatBot
-          steps={steps}
-          floating={true}/>
+      <LeftNav />
+      <ThemeProvider theme={theme}>
+        <ChatBot steps={steps} floating={true} />
+      </ThemeProvider>
     </Segment>
   );
 };
