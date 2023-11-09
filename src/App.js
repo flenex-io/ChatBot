@@ -2,7 +2,7 @@ import React from "react";
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 import { Segment } from "semantic-ui-react";
-import LeftNav from "./components/Main";
+import Main from "./components/Main";
 
 const App = () => {
   const steps = [
@@ -82,7 +82,7 @@ const App = () => {
 
   return (
     <Segment>
-      <LeftNav />
+      <Main />
       <ThemeProvider theme={theme}>
         <ChatBot steps={steps} floating={true} />
       </ThemeProvider>
