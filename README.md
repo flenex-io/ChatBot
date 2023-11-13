@@ -25,7 +25,11 @@ To experience this chatbot in action, follow these steps:
 
 If you wish to work on the development or customization of this chatbot, you can follow these steps:
 
-1. Clone this repository to your local machine.
+1. Clone this repository
+
+   ```bash
+   git clone https://github.com/flenex-io/ChatBot.git
+   ```
 
 2. Navigate to the project directory:
 
