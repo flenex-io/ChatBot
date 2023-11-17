@@ -30,7 +30,7 @@ If you wish to work on the development or customization of this chatbot, you can
 2. Navigate to the project directory:
 
    ```bash
-   cd chatbot-elevenlabs
+   cd ChatBot
 
    ```
 
