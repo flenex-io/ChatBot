@@ -45,3 +45,5 @@ If you wish to work on the development or customization of this chatbot, you can
    ```bash
    npm start
    ```
+
+## Open For Contributions
