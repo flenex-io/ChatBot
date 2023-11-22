@@ -1,7 +1,7 @@
 # Flx Chatbot
 
-![Chatbot Preview](./src/images/chatbot.png)
 ![Chatbot Preview](./src/images/screen.png)
+![Chatbot Preview](./src/images/chatbot.png)
 
 This project features a chatbot implemented in an ElevenLabs website(cloned). The front-end code for the ElevenLabs website has been created using website cloning techniques. However, the chatbot component, a core feature of this project, has been fully developed by me(Flenex.io) using a React library called react-simple-chatbot. This is just an initial state of the project and many more features will be added soon.
 
